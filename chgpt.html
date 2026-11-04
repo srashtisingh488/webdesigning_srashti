@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Webpage</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #eeeeee;
+        }
+
+        header {
+            background-color: #123b5d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            margin: 0 40px;
+            text-decoration: none;
+            color: #123b5d;
+            font-weight: bold;
+        }
+
+        .card {
+            background-color: white;
+            width: 70%;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 5px;
+        }
+
+        .about {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #cccccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ddd;
+            margin: 25px 0;
+        }
+
+        h2 {
+            color: #123b5d;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hi, I'm Rahul!</h1>
+        <p>Welcome to my first personal webpage.</p>
+    </header>
+
+    <nav>
+        <a href="#about">[About]</a>
+        <a href="#hobbies">[Hobbies]</a>
+        <a href="#subjects">[Favorite Subjects]</a>
+    </nav>
+
+    <div class="card">
+
+        <h2 id="about">About Me</h2>
+
+        <div class="about">
+            <div class="photo">
+                Round Image
+            </div>
+
+            <p>
+                I am a school student passionate about technology
+                and development. This is my very first page built
+                using HTML & CSS.
+            </p>
+        </div>
+
+        <hr>
+
+        <h2 id="hobbies">My Hobbies</h2>
+
+        <ul>
+            <li>Coding simple websites</li>
+            <li>Playing Basketball</li>
+            <li>Reading Tech Articles</li>
+        </ul>
+
+        <hr>
+
+        <h2 id="subjects">Favorite Subjects</h2>
+
+        <ol>
+            <li>Computer Science</li>
+            <li>Mathematics</li>
+            <li>Physics</li>
+        </ol>
+
+    </div>
+
+</body>
+</html>

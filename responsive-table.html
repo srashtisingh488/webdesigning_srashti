@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table</title>
+    <style>
+        .table-container{
+            overflow-x: auto;
+        }
+        table {
+            width: 60%;
+            min-width: 600px;
+            height: 40lvh;
+            margin:auto;
+            border: 1px solid black;
+            border-spacing: 1px;
+            border-radius: 10px;
+            font-size: 25px;
+            border-style: solid;
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid black;
+            text-align: center;
+            border-radius: 10px;
+        }
+        tr{
+            background-color: skyblue;
+        }
+        td{
+            background-color: pink;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Table</h1>
+    <div class="table-container">
+    <table>
+        <tr>
+            <th>First Name:</th>
+            <th>Last Name:</th>
+            <th>Age:</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>

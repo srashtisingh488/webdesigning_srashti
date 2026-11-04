@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body style="background-color: rgb(201, 221, 224);">
+    <br>
+    <form>
+        <table style="background-color: rgb(236, 233, 220);" align="center" width="650"
+               cellpadding="12"
+               border="1px solid black">
+
+
+            <tr style="background-color: rgb(208, 177, 221);">
+                <td colspan="2" align="center">
+                    <br>
+                    <table align="center" border="0" cellpadding="5">
+                        <tr>
+                            <td>
+                                <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ugai46WkbFDqIzLprdXZAE_o_f-3UxqZwUruEgqDCVkwmfDdFSYgseFZ&s=10"
+                                width="105px"
+                                height="105px">
+                            </td>
+                            <td>
+                                <h1>Registration Form</h1>
+                                <p>Fill in the details to create your account</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <legend><b>Personal Information</b></legend>
+                        <table width="100%" cellpadding="7">
+
+                            <tr>
+                                <td width="35%">
+                                    <label><b>Full Name :</b></label>
+                                </td>
+
+                                <td>
+                                    <input type="text"
+                                           size="35"
+                                           placeholder="Enter your name"
+                                           required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label><b>Email :</b></label>
+                                </td>
+
+                                <td>
+                                    <input type="email"
+                                           size="35"
+                                           placeholder="Enter your email"
+                                           required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label><b>Mobile No. :</b></label>
+                                </td>
+
+                                <td>
+                                    <input type="tel"
+                                           size="35"
+                                           placeholder="Enter your phone number"
+                                           required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label><b>Date of Birth :</b></label>
+                                </td>
+
+                                <td>
+                                    <input type="date" required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label><b>Gender :</b></label>
+                                </td>
+
+                                <td>
+
+                                    <input type="radio"
+                                           name="gender"
+                                           id="male">
+
+                                    <label for="male">Male</label>
+
+                                    &nbsp;&nbsp;
+
+                                    <input type="radio"
+                                           name="gender"
+                                           id="female">
+
+                                    <label for="female">Female</label>
+
+                                    &nbsp;&nbsp;
+
+                                    <input type="radio"
+                                           name="gender"
+                                           id="others">
+
+                                    <label for="others">Others</label>
+
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </fieldset>
+
+                </td>
+            </tr>
+
+
+        
+            <tr>
+                <td colspan="2">
+
+                    <fieldset>
+                        <legend><b>Educational Information</b></legend>
+
+                        <table width="100%" cellpadding="7">
+
+                            <tr>
+                                <td width="35%">
+                                    <label><b>Course :</b></label>
+                                </td>
+
+                                <td>
+
+                                    <select required>
+                                        <option value="">Select your course</option>
+                                        <option>BCA</option>
+                                        <option>B.Tech</option>
+                                        <option>MCA</option>
+                                        <option>BBA</option>
+                                        <option>MBA</option>
+                                    </select>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label><b>Hobbies :</b></label>
+                                </td>
+
+                                <td>
+
+                                    <input type="checkbox" id="reading">
+                                    <label for="reading">Reading</label>
+
+                                    &nbsp;&nbsp;
+
+                                    <input type="checkbox" id="coding">
+                                    <label for="coding">Coding</label>
+
+                                    &nbsp;&nbsp;
+
+                                    <input type="checkbox" id="music">
+                                    <label for="music">Music</label>
+
+                                    &nbsp;&nbsp;
+
+                                    <input type="checkbox" id="travel">
+                                    <label for="travel">Travelling</label>
+
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </fieldset>
+
+                </td>
+            </tr>
+
+
+        
+            <tr>
+                <td colspan="2">
+
+                    <fieldset>
+                        <legend><b>Contact Information</b></legend>
+
+                        <table width="100%" cellpadding="7">
+
+                            <tr>
+                                <td width="35%" valign="top">
+                                    <label><b>Address :</b></label>
+                                </td>
+
+                                <td>
+                                    <textarea rows="5"
+                                              cols="38"
+                                              placeholder="Enter your address"></textarea>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label><b>Profile Picture :</b></label>
+                                </td>
+
+                                <td>
+                                    <input type="file">
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </fieldset>
+
+                </td>
+            </tr>
+
+
+        
+            <tr>
+                <td colspan="2">
+
+                    <fieldset>
+                        <legend><b>Account Information</b></legend>
+
+                        <table width="100%" cellpadding="7">
+
+                            <tr>
+                                <td width="35%">
+                                    <label><b>Password :</b></label>
+                                </td>
+
+                                <td>
+                                    <input type="password"
+                                           size="35"
+                                           placeholder="Enter your password"
+                                           required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label><b>Confirm Password :</b></label>
+                                </td>
+
+                                <td>
+                                    <input type="password"
+                                           size="35"
+                                           placeholder="Re-enter your password"
+                                           required>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="2" align="center">
+
+                                    <input type="checkbox"
+                                           id="terms"
+                                           required>
+
+                                    <label for="terms">
+                                        I agree to the Terms and Conditions
+                                    </label>
+
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </fieldset>
+
+                </td>
+            </tr>
+
+
+    
+            <tr style="background-color: rgb(208, 177, 221);">
+                <td colspan="2" align="center">
+
+                    <br>
+
+                    <input type="submit"
+                           value="Register">
+
+                    &nbsp;&nbsp;&nbsp;
+
+                    <input type="reset"
+                           value="Reset">
+
+                    <br><br>
+
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <style>
+        body{
+            background-color: rgb(208, 232, 242);
+        }
+        fieldset{
+            background-color: rgb(243, 214, 219);
+            margin-left: 30%;
+            width: 40%;
+            height:35lvh;
+        }
+        h1{
+            margin-left: 38%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Student Registration Form</h1>
+        <fieldset>
+            <legend><b>Personal Details</b></legend>
+            <br>
+            <label><b>Full Name:</b></label>
+            <input type="text" value="Enter your name" required>
+            <br><br>
+            <label><b>Email:</b></label>
+            <input type="email" value="Enter your email" required>
+            <br><br>
+            <label><b>Password:</b></label>
+            <input type="password" value="Enter your password" required>
+            <br><br>
+            <label><b>Mobile no:</b></label>
+            <input type="number" value="Enter your mob no." required>
+            <br><br>
+            <label><b>D.O.B:</b></label>
+            <input type="date" value="Enter your dob" required>
+            <br><br>
+            <label><b>Gender :</b></label>
+            <input type="radio" name="gender">
+
+            <label>Male</label>
+            <input type="radio" name="gender">
+            <label>Female</label>
+            <input type="radio" name="gender">
+            <label>Others</label>
+            <br><br>
+           </fieldset> <fieldset>
+            <legend><b>Course Details</b></legend>
+            <br>
+            <label><b>Course :</b></label>
+            <input type="checkbox" name="course">
+            <label>BCA</label>
+            <input type="checkbox" name="course">
+            <label>MCA</label>
+            <input type="checkbox" name="course">
+            <label>BTech.</label>
+            <br><br>
+            <label><b>Skills :</b></label>
+            <input type="checkbox" name="course">
+            <label>HTML</label>
+            <input type="checkbox" name="course">
+            <label>CSS</label>
+            <input type="checkbox" name="course">
+            <label>JSS</label>
+            <br><br>
+            <label><b>Profile photo:</b></label>
+            <input type="file">
+            <br><br>
+            <label><b>Address:</b></label><br>
+            <textarea placeholder="Enter your Address" required></textarea>
+            <br><br>
+            <input type="submit" value="Register">
+            <input type="submit" value="Reset">
+            
+        </fieldset>
+    </form>
+    
+</body>
+</html>

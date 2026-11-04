@@ -1,0 +1,104 @@
+body{
+    background-color:#e8eef3;
+    margin:0px;
+    font-family:Arial;
+}
+header{
+    background-color:purple;
+    color:aliceblue;
+    padding:30px;
+}
+nav{
+    background-color:white;
+    padding:15px;
+    position:sticky;
+    top:0px;
+    box-shadow:0px 2px 8px gray;
+}
+nav a{
+    color:purple;
+    text-decoration:none;
+    margin:10px;
+}
+nav a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.main{
+    background-color:whitesmoke;
+    padding:40px;
+}
+.card{
+    background-color:white;
+    padding:35px;
+    border-radius:20px;
+    max-width:1000px;
+    margin:auto;
+    box-shadow:0px 5px 15px gray;
+}
+.intro{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    background-color:white;
+    padding:20px;
+}
+img{
+    border-radius:60%;
+    border:5px solid lightblue;
+}
+.intro h2{
+    color: darkmagenta;
+    line-height:1.6;
+}
+li{
+    margin:10px;
+}
+.skills{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+.skills p{
+    background-color:lightblue;
+    color:black;
+    padding:12px 20px;
+    border-radius:20px;
+}
+.skills p:hover{
+    background-color:purple;
+}
+.projects{
+    display:flex;
+    gap:20px;
+}
+.project{
+    background-color:lightblue;
+    padding:20px;
+    border-radius:15px;
+    width:30%;
+}
+.project:hover{
+    background-color:#dce6ef;
+    box-shadow:0px 5px 12px gray;
+}
+.project h3{
+    color:purple;
+}
+.experience{
+    background-color:lightblue;
+    padding:20px;
+    border-radius:15px;
+}
+.contact{
+    background-color:lightblue;
+    color:black;
+    padding:25px;
+    border-radius:15px;
+}
+footer{
+    background-color:purple;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
